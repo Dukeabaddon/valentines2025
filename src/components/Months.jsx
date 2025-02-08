@@ -3,6 +3,7 @@ import Card from "./Card.jsx";
 import '../App.css'
 import profile from "../assets/img(6).jpg";
 import btnNext from "../assets/btn-next.png";
+import paws from "../assets/paws.png";
 
 function Months({ onImageClick }) {
     const startDate = new Date("2024-11-16T00:00:00");
@@ -69,7 +70,7 @@ function Months({ onImageClick }) {
             </div>
 
                 <div className="mt-16">
-                    <img src="../src/assets/paws.png" alt="Paws" className="mx-auto  sm:w-auto w-[80%]" />
+                    <img src={paws} alt="Paws" className="mx-auto  sm:w-auto w-[80%]" />
                 </div>
                 <div className="flex justify-end items-end pr-20 absolute bottom-8 right-2 mb-4 mr-4">
                     <img 

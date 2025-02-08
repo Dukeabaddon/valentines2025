@@ -1,10 +1,13 @@
 import Card from "./Card.jsx";
+import btnBack from "../assets/btn-back.png";
+import btnNext from "../assets/btn-next.png";
+import mail from "../assets/mail.png";
 
 function Message({onBackClick, onValentineClick}){
     return(
         <Card>
             <div className="flex items-center gap-3 pl-14 pt-8 mb-5">
-                <img src="../src/assets/mail.png" alt="Mail" className="sm:w-[55px] w-[45px]"/>
+                <img src={mail}alt="Mail" className="sm:w-[55px] w-[45px]"/>
                 <p className="sm:text-[26px] text-xl">To my marilag</p>
             </div>
             <div className="sm:w-[70%] w-[90%] mx-auto bg-[#FBF6F6] border-[#FCAFAF] border-4 rounded-3xl sm:p-11 p-7">
@@ -13,8 +16,8 @@ function Message({onBackClick, onValentineClick}){
                 </div>
 
             <div className="flex absolute bottom-8 justify-between w-full mb-4 px-[104px]">
-                <img src="../src/assets/btn-back.png" alt="Button" className="w-13 hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out" onClick={onBackClick}/>
-                <img src="../src/assets/btn-next.png" alt="Button" className="w-13 hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out" onClick={onValentineClick}/>
+                <img src={btnBack} alt="Button" className="w-13 hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out" onClick={onBackClick}/>
+                <img src={btnNext} alt="Button" className="w-13 hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out" onClick={onValentineClick}/>
             </div>
         </Card>
     )

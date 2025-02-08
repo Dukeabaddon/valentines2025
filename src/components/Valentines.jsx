@@ -1,7 +1,7 @@
 import Card from "./Card.jsx";
-import Cat from "../assets/oia-uia.gif";
-import heart from "../assets/heart.png";
-import btnBack from "../assets/btn-back.png";
+import Cat from "./oia-uia.gif";
+import heart from "./heart.png";
+import btnBack from "./btn-back.png";
 
 function Valentines({onBackClick}){
     return(

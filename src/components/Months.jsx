@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card.jsx";
 import '../App.css'
-import profile from "../assets/img6.jpg";
-import btnNext from "../assets/btn-next.png";
-import paws from "../assets/paws.png";
+import profile from "./img6.jpg";
+import btnNext from "./btn-next.png";
+import paws from "./paws.png";
 
 function Months({ onImageClick }) {
     const startDate = new Date("2024-11-16T00:00:00");

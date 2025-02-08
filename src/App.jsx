@@ -4,7 +4,7 @@ import Months from './components/Months.jsx';
 import Gallery from './components/Gallery.jsx';
 import Message from './components/Message.jsx';
 import Valentines from './components/Valentines.jsx';
-import music from "./assets/marilag.mp3";
+import music from "./components/marilag.mp3";
 import { useState, useRef, useEffect } from 'react';
 
 function App() {

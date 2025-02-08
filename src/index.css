@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import "tailwindcss";
+
+
+html, body {
+  box-sizing: border-box;
+  font-family: "Jua", serif;
+  background: url('/bg-hearts.gif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+

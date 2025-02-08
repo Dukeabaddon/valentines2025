@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card.jsx";
 import '../App.css'
+import profile from "../assets/img(6).jpg";
+import btnNext from "../assets/btn-next.png";
 
 function Months({ onImageClick }) {
     const startDate = new Date("2024-11-16T00:00:00");
@@ -31,7 +33,7 @@ function Months({ onImageClick }) {
             <div className="flex flex-col sm:flex-row sm:items-center sm:pl-16 sm:pt-12 pt-7 sm:gap-12">
                 <div className="relative flex items-center justify-center">
                     <div className="absolute border-8 border-dashed dash rounded-full h-48 w-48 animate-spin border-[#FF5BAE]"></div>
-                    <img src="../src/assets/img(6).jpg" alt="Diega" className="h-40 w-40 rounded-full object-cover" />
+                    <img src={profile} alt="Diega" className="h-40 w-40 rounded-full object-cover" />
                 </div>
                 <p className="text-white sm:text-3xl text-xl sm:whitespace-nowrap text-center mt-9 bg-[#FF5BAE] sm:px-8 py-2.5 rounded-[50px]">
                     HOW LONG HAVE WE BEEN TOGETHER? ♡
@@ -71,7 +73,7 @@ function Months({ onImageClick }) {
                 </div>
                 <div className="flex justify-end items-end pr-20 absolute bottom-8 right-2 mb-4 mr-4">
                     <img 
-                        src="../src/assets/btn-next.png" 
+                        src={btnNext}
                         alt="Button" 
                         className="w-13 hover:scale-105 hover:cursor-pointer transition duration-300 ease-in-out"
                         onClick={onImageClick}

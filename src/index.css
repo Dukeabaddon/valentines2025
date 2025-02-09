@@ -5,7 +5,7 @@
 html, body {
   box-sizing: border-box;
   font-family: "Jua", serif;
-  background: url('/assets/bg-hearts.gif') no-repeat center center fixed;
+  background: url('../assets/bg-hearts.gif') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;

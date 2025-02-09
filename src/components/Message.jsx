@@ -1,7 +1,7 @@
 import Card from "./Card.jsx";
-import btnBack from "./btn-back.png";
-import btnNext from "./btn-next.png";
-import mail from "./mail.png";
+import btnBack from "/assets/btn-back.png";
+import btnNext from "/assets/btn-next.png";
+import mail from "/assets/mail.png";
 
 function Message({onBackClick, onValentineClick}){
     return(

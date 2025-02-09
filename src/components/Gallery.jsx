@@ -6,9 +6,9 @@ function Gallery({ onBackClick, onMessageClick }) {
             <h1 className="text-3xl text-[#FF5BAE] text-center pt-6">US</h1>
             <div className="w-[80%] h-[70%] mx-auto my-3 overflow-y-scroll">
                 <div className="columns-2">
-                    <img className="mb-2" src="/assets/img1.jpg" alt="image" />
-                    <img className="mb-2" src="/assets/img2.jpg" alt="image" />
-                    <img className="mb-2" src="/assets/img3.jpg" alt="image" />
+                    <img className="mb-2" src="/assets/img1.JPG" alt="image" />
+                    <img className="mb-2" src="/assets/img2.JPG" alt="image" />
+                    <img className="mb-2" src="/assets/img3.JPG" alt="image" />
                     <img className="mb-2" src="/assets/img4.jpg" alt="image" />
                     <img className="mb-2" src="/assets/img5.jpg" alt="image" />
                     <img className="mb-2" src="/assets/img6.jpg" alt="image" />
@@ -34,7 +34,7 @@ function Gallery({ onBackClick, onMessageClick }) {
                     <img className="mb-2" src="/assets/img26.jpg" alt="image" />
                     <img className="mb-2" src="/assets/img27.jpg" alt="image" />
                     <img className="mb-2" src="/assets/img28.jpg" alt="image" />
-                    <img className="mb-2" src="/assets/img29.jpg" alt="image" />
+                    <img className="mb-2" src="/assets/img29.JPG" alt="image" />
                 </div>
             </div>
             <h4 className="text-3xl text-[#FF5BAE] text-center pt-6">pogi mo</h4>
